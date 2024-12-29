@@ -9,7 +9,7 @@ A docker image to run any minecraft java server you want.
 
 To use unimc 
 
-```docker-compse
+```yml
 services:
   minecraft:
     image: ghcr.io/dishit79/unimc:latest
