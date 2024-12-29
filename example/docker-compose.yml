@@ -1,6 +1,6 @@
 services:
   minecraft:
-    image: mc
+    image: ghcr.io/dishit79/unimc:latest
     user: 1000:1000
     stdin_open: true
     tty: true
