@@ -1,0 +1,11 @@
+services:
+  minecraft:
+    image: mc
+    user: 1000:1000
+    stdin_open: true
+    tty: true
+    ports:
+      - "25569:25569"
+    volumes:
+      - /home/nawaf/Documents/GitHub/unimc-docker/minecraft:/minecraft
+  
